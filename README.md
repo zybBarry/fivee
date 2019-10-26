@@ -1,5 +1,7 @@
 # fivee    --power by zyb
 红包秒杀系统red envelope skill system
+框架：goconvey、
+
 ###代码结构
 ####api web接口
 ####cmd 程序入口
