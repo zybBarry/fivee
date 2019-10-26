@@ -9,7 +9,7 @@ import (
 const min = int64(1)
 
 //简单随机算法
-//红包得数量，红包得金额
+//红包的数量，红包的金额
 //单位金额为分
 func SimpleRand(count, amount int64) int64 {
 	if count == 1 {

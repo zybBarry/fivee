@@ -5,14 +5,13 @@ import (
 	"testing"
 )
 
-func TestSimpleRand(t *testing.T) {
+func TestDoubleAvage(t *testing.T) {
 	var count,account int64
-	count=2 //十个包
+	count=3 //三个包
 	account=100 //1块钱
-	for i:=int64(0);i<2;i++ {
-		money:=SimpleRand(count,account)
+	for i:=int64(0);i<count;i++ {
+		money:=DoubleAvage(count-i,account)
 		fmt.Println(money)
-		count--
 		account=account-money
 	}
 }
